@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 function Indexpage(){
 
@@ -17,8 +23,8 @@ function Indexpage(){
                                             <h1 data-animation="fadeInLeft" data-delay="0.2s">Online learning<br/> platform</h1>
                                             <p data-animation="fadeInLeft" data-delay="0.4s">Build skills with courses, certificates, and
                                                 degrees online from world-class universities and companies</p>
-                                            <a href="#" className="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Join for
-                                                Free</a>
+                                            <Link href="#" className="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s"/>Join for
+                                                Free
                                         </div>
                                     </div>
                                 </div>
@@ -82,11 +88,11 @@ function Indexpage(){
                             <div className="properties pb-20">
                                 <div className="properties__card">
                                     <div className="properties__img overlay1">
-                                        <a href="#"><img src="assets/img/gallery/featured1.png" alt=""/></a>
+                                        <Link href="#"/><img src="assets/img/gallery/featured1.png" alt=""/>
                                     </div>
                                     <div className="properties__caption">
                                         <p>User Experience</p>
-                                        <h3><a href="#">Fundamental of UX for Application design</a></h3>
+                                        <h3><Link href="#"/>Fundamental of UX for Application design</h3>
                                         <p>The automated process all your website tasks. Discover tools and techniques
                                             to engage effectively with vulnerable children and young people.
 
@@ -107,7 +113,7 @@ function Indexpage(){
                                                 <span>$135</span>
                                             </div>
                                         </div>
-                                        <a href="/details" className="border-btn border-btn2">Find out more</a>
+                                        <Link to="/details" className="border-btn border-btn2"/>Find out more
                                     </div>
 
                                 </div>
@@ -116,11 +122,11 @@ function Indexpage(){
                             <div className="properties pb-20">
                                 <div className="properties__card">
                                     <div className="properties__img overlay1">
-                                        <a href="#"><img src="assets/img/gallery/featured2.png" alt=""/></a>
+                                        <Link href="#"/><img src="assets/img/gallery/featured2.png" alt=""/>
                                     </div>
                                     <div className="properties__caption">
                                         <p>User Experience</p>
-                                        <h3><a href="#">Fundamental of UX for Application design</a></h3>
+                                        <h3><Link href="#"/>Fundamental of UX for Application design</h3>
                                         <p>The automated process all your website tasks. Discover tools and techniques
                                             to engage effectively with vulnerable children and young people.
                                         </p>
@@ -140,7 +146,7 @@ function Indexpage(){
                                                 <span>$135</span>
                                             </div>
                                         </div>
-                                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                                        <Link href="#" className="border-btn border-btn2"/>Find out more
                                     </div>
                                 </div>
                             </div>
@@ -148,11 +154,11 @@ function Indexpage(){
                             <div className="properties pb-20">
                                 <div className="properties__card">
                                     <div className="properties__img overlay1">
-                                        <a href="#"><img src="assets/img/gallery/featured3.png" alt=""/></a>
+                                        <Link href="#"/><img src="assets/img/gallery/featured3.png" alt=""/>
                                     </div>
                                     <div className="properties__caption">
                                         <p>User Experience</p>
-                                        <h3><a href="#">Fundamental of UX for Application design</a></h3>
+                                        <h3><Link href="#"/>Fundamental of UX for Application design</h3>
                                         <p>The automated process all your website tasks. Discover tools and techniques
                                             to engage effectively with vulnerable children and young people.
 
@@ -173,7 +179,7 @@ function Indexpage(){
                                                 <span>$135</span>
                                             </div>
                                         </div>
-                                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                                        <Link href="#" className="border-btn border-btn2"/>Find out more
                                     </div>
 
                                 </div>
@@ -182,11 +188,11 @@ function Indexpage(){
                             <div className="properties pb-20">
                                 <div className="properties__card">
                                     <div className="properties__img overlay1">
-                                        <a href="#"><img src="assets/img/gallery/featured2.png" alt=""/></a>
+                                        <Link href="#"/><img src="assets/img/gallery/featured2.png" alt=""/>
                                     </div>
                                     <div className="properties__caption">
                                         <p>User Experience</p>
-                                        <h3><a href="#">Fundamental of UX for Application design</a></h3>
+                                        <h3><Link href="#"/>Fundamental of UX for Application design</h3>
                                         <p>The automated process all your website tasks. Discover tools and techniques
                                             to engage effectively with vulnerable children and young people.
 
@@ -207,7 +213,7 @@ function Indexpage(){
                                                 <span>$135</span>
                                             </div>
                                         </div>
-                                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                                        <Link href="#" className="border-btn border-btn2"/>Find out more
                                     </div>
 
                                 </div>
@@ -265,9 +271,9 @@ function Indexpage(){
                                 <img src="assets/img/gallery/about.png" alt=""/>
 
                                     <div className="video-icon">
-                                        <a className="popup-video btn-icon"
-                                           href="https://www.youtube.com/watch?v=up68UAfH0d0"><i
-                                            className="fas fa-play"></i></a>
+                                        <Link className="popup-video btn-icon"
+                                           href="https://www.youtube.com/watch?v=up68UAfH0d0"/><i
+                                            className="fas fa-play"></i>
                                     </div>
                             </div>
                         </div>
@@ -290,7 +296,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic1.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -302,7 +308,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic2.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -314,7 +320,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic3.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -326,7 +332,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic4.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -338,7 +344,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic5.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -350,7 +356,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic6.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -362,7 +368,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic7.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -374,7 +380,7 @@ function Indexpage(){
                                         <img src="assets/img/gallery/topic8.png" alt=""/>
                                             <div className="topic-content-box">
                                                 <div className="topic-content">
-                                                    <h3><a href="#">Programing</a></h3>
+                                                    <h3><Link href="#"/>Programing</h3>
                                                 </div>
                                             </div>
                                     </div>
@@ -384,7 +390,7 @@ function Indexpage(){
                         <div className="row justify-content-center">
                             <div className="col-xl-12">
                                 <div className="section-tittle text-center mt-20">
-                                    <a href="courses.html" className="border-btn">View More Subjects</a>
+                                    <Link href="courses.html" className="border-btn"/>View More Subjects
                                 </div>
                             </div>
                         </div>
@@ -451,7 +457,7 @@ function Indexpage(){
                                     <img src="assets/img/gallery/team1.png" alt=""/>
                                 </div>
                                 <div className="cat-cap">
-                                    <h5><a href="services.html">Mr. Urela</a></h5>
+                                    <h5><Link href="services.html"/>Mr. Urela</h5>
                                     <p>The automated process all your website tasks.</p>
                                 </div>
                             </div>
@@ -460,7 +466,7 @@ function Indexpage(){
                                     <img src="assets/img/gallery/team2.png" alt=""/>
                                 </div>
                                 <div className="cat-cap">
-                                    <h5><a href="services.html">Mr. Uttom</a></h5>
+                                    <h5><Link href="services.html"/>Mr. Uttom</h5>
                                     <p>The automated process all your website tasks.</p>
                                 </div>
                             </div>
@@ -469,7 +475,7 @@ function Indexpage(){
                                     <img src="assets/img/gallery/team3.png" alt=""/>
                                 </div>
                                 <div className="cat-cap">
-                                    <h5><a href="services.html">Mr. Shakil</a></h5>
+                                    <h5><Link href="services.html"/>Mr. Shakil</h5>
                                     <p>The automated process all your website tasks.</p>
                                 </div>
                             </div>
@@ -478,7 +484,7 @@ function Indexpage(){
                                     <img src="assets/img/gallery/team4.png" alt=""/>
                                 </div>
                                 <div className="cat-cap">
-                                    <h5><a href="services.html">Mr. Arafat</a></h5>
+                                    <h5><Link href="services.html"/>Mr. Arafat</h5>
                                     <p>The automated process all your website tasks.</p>
                                 </div>
                             </div>
@@ -487,7 +493,7 @@ function Indexpage(){
                                     <img src="assets/img/gallery/team3.png" alt=""/>
                                 </div>
                                 <div className="cat-cap">
-                                    <h5><a href="services.html">Mr. saiful</a></h5>
+                                    <h5><Link href="services.html"/>Mr. saiful</h5>
                                     <p>The automated process all your website tasks.</p>
                                 </div>
                             </div>
@@ -513,7 +519,7 @@ function Indexpage(){
                                         with us.</h2>
                                     <p>The automated process all your website tasks. Discover tools and techniques to
                                         engage effectively with vulnerable children and young people.</p>
-                                    <a href="#" className="btn">Join now for Free</a>
+                                    <Link href="#" className="btn"/>Join now for Free
                                 </div>
                             </div>
                         </div>

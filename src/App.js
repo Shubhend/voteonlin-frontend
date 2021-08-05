@@ -4,6 +4,8 @@ import Header from './Component/Header/header';
 import Indexpage from "./Pages";
 import Details from "./Pages/detail";
 import Footer from './Component/Footer/footer';
+import About from './Pages/about';
+import Search from "./Pages/search";
 import {
     BrowserRouter as Router,
     Switch,
@@ -18,15 +20,21 @@ function App() {
 
         <Router>
         <Switch>
-            <Route path="/about">
-                <Details />
+            <Route path="/about" exact>
+                <About />
             </Route>
             <Route path="/details" exact>
                <Details/>
             </Route>
-            <Route path="/">
+            <Route path="/" exact>
                 <Indexpage/>
             </Route>
+            <Route path="/search" exact>
+                <Search/>
+            </Route>
+
+
+
         </Switch>
         </Router>
     <Footer/>
