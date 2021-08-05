@@ -6,6 +6,7 @@ import Details from "./Pages/detail";
 import Footer from './Component/Footer/footer';
 import About from './Pages/about';
 import Search from "./Pages/search";
+import Login from './Pages/login';
 import {
     BrowserRouter as Router,
     Switch,
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/search" exact>
                 <Search/>
+            </Route>
+            <Route path="/login" exact>
+                <Login/>
             </Route>
 
 
